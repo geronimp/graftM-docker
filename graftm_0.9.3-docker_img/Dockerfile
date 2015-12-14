@@ -3,13 +3,13 @@
 #
 # Version:          1
 # Software:         graftM
-# Software Version: 0.9.2
+# Software Version: 0.9.3
 # Website:          https://github.com/geronimp/graftM
-# Provides:         graftM 0.9.2
+# Provides:         graftM 0.9.3
 # Base Image:       ubuntu:14.04
-# Build Cmd:        sudo docker build -t graftm_0.9.2-docker_img .
+# Build Cmd:        sudo docker build -t graftm_0.9.3-docker_img .
 # Pull Cmd:         docker pull geronimp/graftM
-# Run Cmd:          run -v `pwd`:/data graftm_0.9.2-docker_img graft --forward 16s.fna --graftm_package 4.01.2013_08_greengenes_61_otus.gpkg
+# Run Cmd:          run -v `pwd`:/data graftm_0.9.3-docker_img graft --forward 16s.fna --graftm_package 4.01.2013_08_greengenes_61_otus.gpkg
 ###################################################################
 
 # Base image as Unbuntu
